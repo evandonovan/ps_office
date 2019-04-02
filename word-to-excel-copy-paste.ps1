@@ -7,7 +7,7 @@
 # other params optional
 param (
   [string]$path = $(throw "-path is required"),
-  [string]$ext = ".doc",
+  [string]$ext = "doc",
   [switch]$autofit = $false,
   [switch]$delrows = $false
 )
