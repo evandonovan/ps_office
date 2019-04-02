@@ -11,7 +11,6 @@ param (
   [switch]$autofit = $false,
   [switch]$delrows = $false
 )
-$path = “C:\Users\Evan Donovan\OneDrive - City Vision University\City Vision\HCM2 Request Docs\5. F2 18 Sp1 19 misc\!Docs for Prep\transcripts HCM 5 - to create”
 
 # creates an instance of Word as a COM object, so this is a memory-intensive way (basically like using a macro) 
 $objWord = New-Object -ComObject word.application
